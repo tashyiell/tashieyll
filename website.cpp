@@ -53,3 +53,19 @@ run the sever
 
 int main(){std::cout<< "starting the web service...\n"; 
      return 0;}
+
+ frontened part desing 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>C++ Web Magic</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Welcome to our C++ Web Wonderland! 🌟</h1>
+    <p>This website is powered by C++!</p>
+    <button onclick="sayHello()">Click me!</button>
+    <script src="script.js"></script>
+</body>
+</html

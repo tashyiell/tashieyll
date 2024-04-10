@@ -69,3 +69,37 @@ int main(){std::cout<< "starting the web service...\n";
     <script src="script.js"></script>
 </body>
 </html
+
+socket
+
+#include <iostream>
+#include <boost/asio.hpp>
+
+int main() {
+    boost::asio::io_context io_context;
+    boost::asio::ip::tcp::socket socket(io_context);
+    boost::system::error_code ec;
+
+    // Connect to a server
+    socket.connect(boost::asio::ip::tcp::endpoint(boost::asio::ip::address::from_string("127.0.0.1"), 12345), ec);
+    if (ec) {
+        std::cerr << "Failed to connect: " << ec.message() << std::endl;
+        return 1;
+    }
+
+    std::cout << "Connected to server" << std::endl;
+
+    return 0;
+}
+
+
+
+     bridging the gap 
+
+function sayHello() {
+    fetch('/api/hello')
+        .then(response => response.text())
+        .then(data => {
+            alert(`Server says: ${data}`);
+        });
+}

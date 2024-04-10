@@ -34,6 +34,19 @@ while (true) {
     boost::asio::write(socket, boost::asio::buffer(response));
  }
 }
+}#include <iostream>
+#include <cppnetlib/http/server.hpp>
+
+void handle_request(const cppnetlib::http::request& req, cppnetlib::http::response& res) {
+    // Your server-side magic here!
+}
+
+int main() {
+    cppnetlib::http::server server;
+    server.set_http_handler(handle_request);
+    server.listen("localhost", "8080");
+    server.run();
+    return 0;
 }
 
 run the sever

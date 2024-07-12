@@ -54,4 +54,68 @@ int main() {
 }
 
 
+#include <iostream>
 
+using namespace std;
+
+
+int main() {
+
+
+	double number1, number2, number3;
+
+
+	cout << "ENTER ANY THREE NUMBERS" << endl << endl << endl;
+
+
+
+	cout << "ETNER THE FIRST NUMBER" << endl << endl;
+
+	cin >> number1;
+
+	cout << "ENTER THE SECOND NUMBER" << endl << endl;
+
+	cin >> number2;
+
+	cout << "ENTER THE THIRD NUMBER" << endl << endl;
+
+	cin >> number3;
+
+
+
+	while (number1 >= 10 && number1 <= 20) {
+
+		cout << ": The number " << number1 << " is between 10 and 20" << endl << endl;
+	} 
+
+	while (number2 >= 20 && number2 <= 30) {
+
+		double sum = number1 + number2 + number3;
+
+		cout << ": The sum is = " << sum << endl << endl;
+	}
+
+	while (number3 <= 5) {
+
+		double results = (number1 + number2) * number3;
+
+		cout << ": The results are =" << results << endl << endl;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	return 0;
+
+}

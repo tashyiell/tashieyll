@@ -69,7 +69,7 @@ int main() {
 
 
 
-	cout << "ETNER THE FIRST NUMBER" << endl << endl;
+	cout << "ENTER THE FIRST NUMBER" << endl << endl;
 
 	cin >> number1;
 
@@ -81,7 +81,7 @@ int main() {
 
 	cin >> number3;
 
-for () {
+for ( ) {
 
 	while (number1 >= 10 && number1 <= 20) {
 
@@ -102,7 +102,7 @@ for () {
 		cout << ": The results are =" << results << endl << endl;
 	}
 
-}
+};
 
 
 

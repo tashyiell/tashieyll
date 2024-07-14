@@ -31,7 +31,7 @@ int main() {
 	}
 	else { cout << ": The number " << number1 << " is not between 10 and 20" << endl << endl; }
 
-	if (number2 >= 20 && number2 <= 30) {
+	else  if (number2 >= 20 && number2 <= 30) {
 
 		double product = number1 * number2 * number3;
 
@@ -39,7 +39,7 @@ int main() {
 	}
 	else { cout << ": The number " << number3 << " is not between 20 and 30" << endl << endl; }
 
-	if (number3 <= 5) {
+	else   (number3 <= 5) {
 
 		double results = (number1 + number2) * number3;
 
@@ -81,7 +81,7 @@ int main() {
 
 	cin >> number3;
 
-
+for () {
 
 	while (number1 >= 10 && number1 <= 20) {
 
@@ -102,7 +102,7 @@ int main() {
 		cout << ": The results are =" << results << endl << endl;
 	}
 
-
+}
 
 
 
